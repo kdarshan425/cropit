@@ -100,7 +100,7 @@
 }
 @media(max-width:768px){
     .marcol{
-        margin-bottom:6cm;
+        margin-bottom:5cm;
     }
 }
 
