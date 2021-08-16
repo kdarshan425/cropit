@@ -188,7 +188,7 @@ if (isset($_POST['submit'])) {
                 session_start();
                 $_SESSION['loggedin'] = true;
                 $_SESSION['useremail'] = $user_email;
-                header("Location: http://localhost/cropit/admin/index.php?signupsuccess=true");
+                header("Location: https://crop-it.herokuapp.com/admin/index.php?signupsuccess=true");
                 exit();                      
             }
         }
@@ -196,7 +196,7 @@ if (isset($_POST['submit'])) {
             $showError = "Password Does not match !";
         }    
     }
-    echo "<script>window.location.href='http://localhost/cropit/admin/index.php?signupsuccess=false&error=$showError';</script>";
+    echo "<script>window.location.href='https://crop-it.herokuapp.com/admin/index.php?signupsuccess=false&error=$showError';</script>";
     exit;
 }
 }

@@ -19,12 +19,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 $_SESSION['loggedin'] = true;
                 $_SESSION['useremail'] = $email;
                 
-                echo "<script>window.location.href='http://localhost/cropit/admin/index.php?signinsuccess=true';</script>";
+                echo "<script>window.location.href='https://crop-it.herokuapp.com/admin/index.php?signinsuccess=true';</script>";
                 exit;
             }
             else{
                 $showError = "Password does not matched";
-                echo "<script>window.location.href='http://localhost/cropit/admin/login.php?signinsuccess=false && error=$showError';</script>";
+                echo "<script>window.location.href='https://crop-it.herokuapp.com/admin/login.php?signinsuccess=false && error=$showError';</script>";
                 exit;
             }
         }
@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
     else{
             $showError = "Email not found!";
-            echo "<script>window.location.href='http://localhost/cropit/admin/admin.php?signinsuccess=false && error=$showError';</script>";
+            echo "<script>window.location.href='https://crop-it.herokuapp.com/admin/admin.php?signinsuccess=false && error=$showError';</script>";
             exit;
         }
 
