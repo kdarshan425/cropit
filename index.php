@@ -19,17 +19,15 @@
 
     <style>
         #home{
-    height: 100vh;
+    height: auto;
     width: 100%;
-    background: url(img/bg.jpg)  no-repeat;
     background-size: cover;
     transition: all ease-in-out 2s ;
 }
 @media screen and (max-width: 500px) {
     #home{
-        height: 100vh;
+        height: auto;
     width: 100%;
-    background: url(img/bg.jpg)  no-repeat;
     background-size: cover;
     transition: all ease-in-out 2s ;
     }
@@ -100,7 +98,7 @@
 }
 @media(max-width:768px){
     .marcol{
-        margin-bottom:5cm;
+        margin-bottom:4cm;
     }
 }
 
@@ -124,18 +122,9 @@
 <body>
     <?php include 'partials/header.php'; ?>
     <div id="home" style="padding-top:70px;padding:0,margin:0">
-        <div class="inner" > 
+        <div class="inner" style="padding:0px;margin:0px;" > 
             <center>
-                <div class="ov text-center"  >
-                    <div style="height:auto;width:auto;">
-                    <div class="container text-center">
-								<h1 style="font-size:60px;color:white;font-family: 'DM Serif Display', serif;">CROPIT</h1>
-								<h4 ><b>Get informed decisions about your farming strategy.</b></h4>
-														
-							</div>
-                    </div>
-                                       
-                </div>     
+                <img style="width:100%;height:auto;" src="img/cover.png" alt="img">
             </center>                               
         </div>                    
     </div>
@@ -144,34 +133,32 @@
 		<h1 class="heading mb-sm-5 mb-4 text-center" style="font-family: 'Raleway', sans-serif;"> Our Services</h1>
 		<div class="row blog-grids">
 			<div class="marcol col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
-				<img src="img/bg.jpg" class="img-fluid" alt="" />
+				<img src="img/farmer.jpg" style="min-width:100%;height:250px" class="img-fluid" alt="" />
 				<a href="farmers.php">
 					<div class="blog-info">
 
 						<h4>Farmer</h4>
 
-						<p class="mt-2"> Recommendation about the type of crops to be cultivated which is best suited
-							for the respective conditions</p>
+						<p class="mt-2"> Get your crop decision according to your location and requirement easily!</p>
 					</div>
 				</a>
 			</div>
 			<div class="marcol col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
-				<img src="img/bg.jpg"  class="img-fluid" alt="" />
+				<img src="img/food.png"  style="min-width:100%;height:250px;" class="img-fluid" alt="" />
 				<a href="business.php">
 					<div class="blog-info">
 						<h4>Business</h4>
-						<p class="mt-2">Recommendation about the type of fertilizer best suited for the particular soil
-							and the recommended crop</p>
+						<p class="mt-2">Get your raw material directly from farmers!</p>
 					</div>
 				</a>
 			</div>
 			<div class="marcol col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
-				<img src="img/bg.jpg"  class="img-fluid" alt="">
+				<img src="img/customer.jpg" style="min-width:100%;height:250px" class="img-fluid" alt="">
 				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
 				<a href="consumer.php">
 					<div class="blog-info">
 						<h4>Consumer</h4>
-						<p class="mt-2">Predicting the name and causes of crop disease and suggestions to cure it</p>
+						<p class="mt-2">Get your household needs from the farmer!</p>
 					</div>
 				</a>
 			</div>
