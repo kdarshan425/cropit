@@ -1,6 +1,6 @@
 <nav style="background: black">
     <div class="topnav" id="myTopnav">
-        <a href="index.php" style="float:left;font-weight: 900;font-family: 'Raleway', sans-serif;">CROPIT</a>
+        <a href="index.php" style="float:left;font-weight: 900;font-family: 'Raleway', sans-serif;"><img style="width:70px;height:auto;" src="img/logo.png"></a>
         <a style="height: 60px;"></a>  
         <a  href="users.php">blog</a>
         <a  href="transaction.history.php">About</a>
