@@ -39,7 +39,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
 }
 
 .marcol{
-    margin-bottom: 2cm;
+    margin-bottom: 3cm;
 }
 @media(max-width:768px){
     .marcol{
