@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
     <link rel="icon" href="img/topl.png">
-=======
->>>>>>> Stashed changes
     <title>Cropit | Home</title>
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
@@ -138,7 +135,7 @@
 		<div class="row blog-grids">
 			<div class="marcol col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
 				<img src="img/farmer.jpg" style="min-width:100%;height:250px" class="img-fluid" alt="" />
-				<a href="farmers.php">
+				<a href="https://crop-prediction-cropit.herokuapp.com/">
 					<div class="blog-info">
 
 						<h4>Farmer</h4>

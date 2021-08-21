@@ -17,7 +17,8 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="sidebar" style="display:none" id="mySidebar">
     <a href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close ×</a>
-    <a  href="index.php" onclick="dk_close()">Home</a>      
+    <a  href="index.php" onclick="dk_close()">Home</a>   
+    <a  href=" https://crop-prediction-cropit.herokuapp.com/  " onclick="dk_close()">Find Crop</a>
     <a  href="users.php" onclick="dk_close()">About</a>
     <a  href="transaction.history.php" onclick="dk_close()">Blog</a>   
 </nav>

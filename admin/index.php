@@ -77,7 +77,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
     <div class="container">
         <div class="row blog-grids">
 			<div class="marcol col-lg-6 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
-				<img src="../img/bg.jpg" class="img-fluid" alt="" />
+				<img src="../img/food.png"  style="min-width:100%;height:250px;"  class="img-fluid" alt="" />
 				<a href="business_records.php">
 					<div class="blog-info">
 						<h4>Business</h4>
@@ -86,7 +86,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
 				</a>
 			</div>
 			<div class="marcol col-lg-6 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
-				<img src="../img/bg.jpg"  class="img-fluid" alt="" />
+				<img src="../img/customer.jpg"  style="min-width:100%;height:250px;" class="img-fluid" alt="" />
 				<a href="consumers_records.php">
 					<div class="blog-info">
 						<h4>Consumer</h4>
