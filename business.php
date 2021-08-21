@@ -143,14 +143,13 @@
     }
     }?>
 
-    <div class="container">
-    <div class="container">
+    <div class="container">    
             <div style="padding-top:20px;" class="container-1">
             
             
-            <form method="post" action="<?php $_SERVER["REQUEST_URI"]?>" enctype="multipart/form-data"> 
+                <form method="post" action="<?php $_SERVER["REQUEST_URI"]?>" enctype="multipart/form-data"> 
                 
-                        <div class="profile-info" style="font-family: 'Raleway', sans-serif;"> <b> Industry Info :</b> </div>
+                    <div class="profile-info" style="font-family: 'Raleway', sans-serif;"> <b> Industry Info :</b> </div>
                         <div class="mb-3">
                             <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Name of industry<span style="color:red;font-size:18px;">*</span></label>
                             <div class="input-group flex-nowrap">                
@@ -202,11 +201,8 @@
                         </center>
                     </div>
                 </div>        
-            </form>
-                      
-            </div>
-        </div>
-        
+            </form>                      
+        </div>       
     </div>
     <?php include 'partials/footer.php'; ?>
     <script>
