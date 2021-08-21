@@ -157,13 +157,13 @@
     }?>
 
     <div class="container">
-   
+    <div class="container">
             <div style="padding-top:20px;" class="container-1">
             
             
             <form method="post" action="<?php $_SERVER["REQUEST_URI"]?>" enctype="multipart/form-data"> 
                 
-                        <div class="profile-info" style="font-family: 'Raleway', sans-serif;"> <b> Persnal Info :</b> </div>
+                    <div class="profile-info" style="font-family: 'Raleway', sans-serif;"> <b> Persnal Info :</b> </div>
                         <div class="mb-3">
                             <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Name <span style="color:red;font-size:18px;">*</span></label>
                             <div class="input-group flex-nowrap">                
@@ -190,35 +190,34 @@
                                 </div>
                             </div>                      
                         </div>
+                        <div class="mb-3">
+                            <div class="profile-info" style="font-family: 'Raleway', sans-serif;" ><b>Professional Bio:</b></div>
+                            <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">contact</label>
+                            <div class="input-group flex-nowrap">                
+                                <input name="contact" type="text" class="form-control" placeholder="contact" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
+                            </div>                
+                        </div>
+                        <div class="mb-3">
+                            <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">resident name</label>
+                            <div class="input-group flex-nowrap">                
+                                <input name="resident_name" type="text" class="form-control" placeholder="Resident name" aria-label="live-url" aria-describedby="addon-wrapping" required>
+                            </div>                
+                        </div>
+                        <div class="mb-3">
+                            <div class="profile-info" style="font-family: 'Raleway', sans-serif;" ><b>About Crops:</b></div>
+                            <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Requirment of crops</label>
+                            <div class="input-group flex-nowrap">                
+                                <input name="crop_requirment" type="text" class="form-control" placeholder="crop_requirment" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
+                            </div>                
+                        </div>   
+                        <div class="mb-3">
+                            <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Problems with current products</label>
+                            <div class="input-group flex-nowrap">                
+                                <input name="current_problems" type="text" class="form-control" placeholder="current_problems" aria-label="live-url" aria-describedby="addon-wrapping" required>
+                            </div>                
+                        </div>      
                     </div>
-                </div>
-                <div class="mb-3">
-                    <div class="profile-info" style="font-family: 'Raleway', sans-serif;" ><b>Professional Bio:</b></div>
-                    <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">contact</label>
-                    <div class="input-group flex-nowrap">                
-                        <input name="contact" type="text" class="form-control" placeholder="contact" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
-                    </div>                
-                </div>
-                <div class="mb-3">
-                    <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">resident name</label>
-                    <div class="input-group flex-nowrap">                
-                        <input name="resident_name" type="text" class="form-control" placeholder="Resident name" aria-label="live-url" aria-describedby="addon-wrapping" required>
-                    </div>                
-                </div>
-                <div class="mb-3">
-                    <div class="profile-info" style="font-family: 'Raleway', sans-serif;" ><b>About Crops:</b></div>
-                    <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Requirment of crops</label>
-                    <div class="input-group flex-nowrap">                
-                        <input name="crop_requirment" type="text" class="form-control" placeholder="crop_requirment" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
-                    </div>                
-                </div>   
-                <div class="mb-3">
-                    <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Problems with current products</label>
-                    <div class="input-group flex-nowrap">                
-                        <input name="current_problems" type="text" class="form-control" placeholder="current_problems" aria-label="live-url" aria-describedby="addon-wrapping" required>
-                    </div>                
-                </div>      
-                
+                </div>               
                 <div class="container">
                     <div style="padding:50px;" class="cont-but">
                         <center>

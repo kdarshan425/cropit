@@ -182,16 +182,17 @@
                                 <input name="industry_contact" type="text" class="form-control" placeholder="contact no" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
                             </div>                
                         </div>
+                        <div class="mb-3">
+                            <div class="profile-info" style="font-family: 'Raleway', sans-serif;" ><b>About Crops:</b></div>
+                            <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Requirment of crops</label>
+                            <div class="input-group flex-nowrap">                
+                                <input name="crop_requirment" type="text" class="form-control" placeholder="crop_requirment" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
+                            </div>                
+                        </div>   
                     </div>
                 </div>
                 
-                <div class="mb-3">
-                    <div class="profile-info" style="font-family: 'Raleway', sans-serif;" ><b>About Crops:</b></div>
-                    <label style="font-size:1.3rcm;font-weight:bold;" for="validationTextarea" class="form-label lebel1">Requirment of crops</label>
-                    <div class="input-group flex-nowrap">                
-                        <input name="crop_requirment" type="text" class="form-control" placeholder="crop_requirment" aria-describedby="inputGroup-sizing-lg" aria-label="Challengename" aria-describedby="addon-wrapping" required>
-                    </div>                
-                </div>   
+               
                  
                 
                 <div class="container">
